@@ -1,0 +1,114 @@
+body,
+button,
+input,
+select,
+textarea{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+h1,
+h2,h3,h4,h5,h6{
+    clear: both;
+}
+p{
+    margin-bottom: 1.5em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead{
+    padding: 20px ;
+    background-color: rgb(14, 14, 90);
+    color: white;
+}
+.masthead h1{
+    text-align: center;
+}
+.intro{
+    padding: 20px 20px ;
+    color:#ffffff;
+    background-color: rgb(43, 129, 121);
+    font-size: 20px;
+}
+.intro p,
+.test-area{
+    margin: auto;
+    max-width: 550px;
+    text-align: left;
+    
+    
+}
+.test-area{
+    margin-bottom: 4em;
+    padding: 0 2em;
+}
+.test-wrapper{
+    border:10px solid grey;
+    border-radius: 10px;
+}
+#origin-text{
+    margin: 1em 0;
+    padding: 1em 1em ;
+    background-color: rgb(175, 183, 197);
+}
+#origin-text p{
+    margin:0;
+    padding-bottom: 1 em;
+}
+.test-wrapper{
+    display: flex;
+}
+
+.test-wrapper textarea{
+    flex:1;
+}
+.meta{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.timer{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#reset{
+    padding:.5em 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:rgb(1, 2, 3);
+    background: rgb(209, 12, 38);
+    border: 5px solid rgb(179, 207, 142);
+}
+#reset:hover{
+    color: white;
+    background-color: rgb(240, 13, 13);
+    
+}
+.yellowText{
+    color: yellow;
+}
+.redText{
+    color: rgb(221, 15, 15);
+}
+.greenText{
+    color: rgb(6, 246, 6);
+}
+
+.profile{
+    
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    border: 5px solid #ccc;
+    padding: 12px 5px 10px 5px;
+    text-align: center;
+}
